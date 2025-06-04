@@ -1,0 +1,75 @@
+.accessories-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f9;
+    margin-top: 5rem;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.accessory-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.accessory-card {
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.accessory-card:hover {
+    transform: translateY(-10px);
+}
+
+.accessory-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.accessory-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0;
+}
+
+.accessory-description {
+    font-size: 14px;
+    color: #555;
+    margin: 10px 0;
+    padding: 0 10px;
+}
+
+.accessory-price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #007bff;
+    margin: 10px 0;
+}
+
+.buy-now {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.buy-now:hover {
+    background-color: #0056b3;
+}

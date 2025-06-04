@@ -1,0 +1,104 @@
+[{
+  "_id": {
+    "$oid": "6798c4787403dee18804459f"
+  },
+  "sales_id": "S001",
+  "product_name": "Galaxy S23 Ultra",
+  "type":"sales",
+  "brand": "Samsung",
+  "model": "S23 Ultra",
+  "price": 124999,
+  "description": "Flagship smartphone with 200MP camera, Snapdragon 8 Gen 2 processor, and 5000mAh battery.",
+  "image_url": "/imgs/galaxy-s23-ultra.jpg"
+},
+{
+  "_id": {
+    "$oid": "6798c4787403dee1880445a0"
+  },
+  "sales_id": "S002",
+  "product_name": "iPhone 15 Pro Max",
+  "type":"sales",
+  "brand": "Apple",
+  "model": "15 Pro Max",
+  "price": 159999,
+  "description": "Premium smartphone with A17 Bionic chip, titanium frame, and Dynamic Island.",
+  "image_url": "/imgs/iphone-15-pro-max.jpg"
+},
+{
+  "_id": {
+    "$oid": "6798c4787403dee1880445a1"
+  },
+  "sales_id": "S003",
+  "product_name": "OnePlus 11R",
+  "type":"sales",
+  "brand": "OnePlus",
+  "model": "11R",
+  "price": 44999,
+  "description": "Powerful performance with Snapdragon 8+ Gen 1, AMOLED display, and 100W fast charging.",
+  "image_url": "/imgs/oneplus-11r.jpg"
+},
+{
+  "_id": {
+    "$oid": "6798c4787403dee1880445a2"
+  },
+  "sales_id": "S004",
+  "product_name": "Pixel 8 Pro",
+  "type":"sales",
+  "brand": "Google",
+  "model": "Pixel 8 Pro",
+  "price": 99999,
+  "description": "AI-enhanced photography with Tensor G3 chip and 120Hz LTPO OLED display.",
+  "image_url": "/imgs/pixel-8-pro.jpg"
+},
+{
+  "_id": {
+    "$oid": "6798c4787403dee1880445a3"
+  },
+  "sales_id": "S005",
+  "product_name": "Redmi Note 13 Pro",
+  "type":"sales",
+  "brand": "Xiaomi",
+  "model": "Note 13 Pro",
+  "price": 24999,
+  "description": "Affordable smartphone with 108MP camera, AMOLED display, and MediaTek Dimensity 7200.",
+  "image_url": "/imgs/redmi-note-13-pro.jpg"
+},
+{
+  "_id": {
+    "$oid": "6798c4787403dee1880445a4"
+  },
+  "sales_id": "S006",
+  "product_name": "Vivo X90 Pro",
+  "type":"sales",
+  "brand": "Vivo",
+  "model": "X90 Pro",
+  "price": 84999,
+  "description": "Stunning camera performance with Zeiss optics, 1-inch sensor, and Dimensity 9200.",
+  "image_url": "/imgs/vivo-x90-pro.jpg"
+},
+{
+  "_id": {
+    "$oid": "6798c4787403dee1880445a5"
+  },
+  "sales_id": "S007",
+  "product_name": "Realme GT 5",
+  "type":"sales",
+  "brand": "Realme",
+  "model": "GT 5",
+  "price": 37999,
+  "description": "Gaming-focused smartphone with Snapdragon 8 Gen 2, 144Hz display, and 240W fast charging.",
+  "image_url": "/imgs/realme-gt-5.jpg"
+},
+{
+  "_id": {
+    "$oid": "67fe9ad4fea52d180f2f39e1"
+  },
+  "sales_id": "S100",
+  "product_name": "Testing",
+  "type":"sales",
+  "brand": "Sample",
+  "model": "001",
+  "price": 1,
+  "description": "Product for testing the payment",
+  "image_url": "/imgs/default-img.png"
+}]

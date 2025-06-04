@@ -1,0 +1,15 @@
+.frame {
+    border-radius: 8px;
+    border: 2px solid #ced4da;
+    overflow: hidden;
+    margin-top: 60px;
+}
+
+.body {
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    background-color: #fff;
+}

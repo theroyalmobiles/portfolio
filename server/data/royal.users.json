@@ -1,0 +1,44 @@
+[
+  {
+    "fullName": "Giridharan S",
+    "email": "giridharans1729@gmail.com",
+    "password": "Giri@1234",
+    "isAdmin": false
+  },
+  {
+    "fullName": "The Royal Mobiles",
+    "email": "trm@gmail.com",
+    "password": "trm@2025",
+    "isAdmin": true
+  },
+  {
+    "fullName": "Jagan S",
+    "email": "jagansdpm@gmail.com",
+    "password": "jagan@2005",
+    "isAdmin": false
+  },
+  {
+    "fullName": "Gokul S",
+    "email": "gokul@gmail.com",
+    "password": "Gokul@456",
+    "isAdmin": false
+  },
+  {
+    "fullName": "Ashoknirmal",
+    "email": "ashok@gmail.com",
+    "password": "Ashok@123",
+    "isAdmin": false
+  },
+  {
+    "fullName": "kaviya S",
+    "email": "kaviya@gmail.com",
+    "password": "kaviya@2004",
+    "isAdmin": false
+  },
+  {
+    "fullName": "Testing",
+    "email": "t@t.t",
+    "password": "t",
+    "isAdmin": true
+  }
+]

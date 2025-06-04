@@ -1,0 +1,98 @@
+[{
+  "_id": {
+    "$oid": "6798c41a7403dee18804459a"
+  },
+  "accessory_id": "A005",
+  "product_name": "Bluetooth Keyboard",
+  "type":"accessories",
+  "brand": "KeyEase",
+  "category": "Keyboard",
+  "compatibility": "Tablets, Smartphones",
+  "price": 2599,
+  "description": "Compact Bluetooth keyboard with ergonomic design and long battery life.",
+  "image_url": "/imgs/bluetooth-keyboard.jpg"
+},
+{
+  "_id": {
+    "$oid": "6798c41a7403dee18804459c"
+  },
+  "accessory_id": "A007",
+  "product_name": "Screen Protector",
+  "type":"accessories",
+  "brand": "CrystalClear",
+  "category": "Protector",
+  "compatibility": "Samsung Galaxy S23 Ultra",
+  "price": 599,
+  "description": "Durable and scratch-resistant tempered glass screen protector.",
+  "image_url": "/imgs/screen-protector.jpg"
+},
+{
+  "_id": {
+    "$oid": "6798c41a7403dee188044596"
+  },
+  "accessory_id": "A001",
+  "product_name": "Wireless Earbuds Pro",
+  "type":"accessories",
+  "brand": "SoundBlast",
+  "category": "Audio",
+  "compatibility": "Universal",
+  "price": 3499,
+  "description": "Premium wireless earbuds with noise cancellation and 20-hour battery life.",
+  "image_url": "/imgs/wireless-earbuds-pro.jpg"
+},
+{
+  "_id": {
+    "$oid": "6798c41a7403dee188044598"
+  },
+  "accessory_id": "A003",
+  "product_name": "Magnetic Phone Holder",
+  "type":"accessories",
+  "brand": "GripTech",
+  "category": "Holder",
+  "compatibility": "All Smartphones",
+  "price": 799,
+  "description": "Magnetic car phone holder with 360-degree rotation and strong grip.",
+  "image_url": "/imgs/magnetic-phone-holder.jpg"
+},
+{
+  "_id": {
+    "$oid": "6798c41a7403dee188044599"
+  },
+  "accessory_id": "A004",
+  "product_name": "Rugged Phone Case",
+  "type":"accessories",
+  "brand": "ShieldGuard",
+  "category": "Case",
+  "compatibility": "iPhone 14 Pro Max",
+  "price": 1999,
+  "description": "Shockproof and drop-resistant rugged phone case with stylish design.",
+  "image_url": "/imgs/rugged-phone-case.jpg"
+},
+{
+  "_id": {
+    "$oid": "6798c41a7403dee18804459b"
+  },
+  "accessory_id": "A006",
+  "product_name": "Portable Power Bank 20000mAh",
+  "type":"accessories",
+  "brand": "ChargeX",
+  "category": "Power Bank",
+  "compatibility": "Universal",
+  "price": 3299,
+  "description": "High-capacity power bank with fast charging support for multiple devices.",
+  "image_url": "/imgs/portable-power-bank.jpg"
+},
+{
+  "_id": {
+    "$oid": "6798c41a7403dee188044597"
+  },
+  "accessory_id": "A002",
+  "product_name": "Fast Charger 30W",
+  "type":"accessories",
+  "brand": "PowerMax",
+  "category": "Charger",
+  "compatibility": "Android, iOS",
+  "price": 1299,
+  "description": "30W fast charger with Type-C and USB-A dual ports for efficient charging.",
+  "image_url": "/imgs/fast-charger-30w.jpg"
+}]

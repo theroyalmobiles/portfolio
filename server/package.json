@@ -1,0 +1,25 @@
+{
+  "name": "backend",
+  "version": "1.0.2",
+  "description": "the royal mobiles server",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Giridharan S",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.5",
+    "nodemon": "^3.1.9",
+    "qrcode": "^1.5.4",
+    "razorpay": "^2.9.6",
+    "resend": "^4.5.1",
+    "stripe": "^18.0.0"
+  }
+}

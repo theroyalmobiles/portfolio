@@ -1,0 +1,177 @@
+.NotFoundContainer {
+    min-height: 100vh;
+    background-color: #f3f4f6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    position: relative;
+}
+
+.Content {
+    text-align: center;
+    animation: slideIn 0.5s ease-out;
+}
+
+.PhoneIcon {
+    font-size: 5rem;
+    margin-bottom: 1.5rem;
+    animation: bounce 2s infinite;
+}
+
+.ErrorCode {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #1f2937;
+    margin-bottom: 1rem;
+    animation: fadeIn 0.8s ease-out;
+}
+
+.ErrorTitle {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #374151;
+    margin-bottom: 1.5rem;
+    animation: fadeIn 1s ease-out;
+}
+
+.ErrorDescription {
+    color: #6b7280;
+    margin-bottom: 2rem;
+    max-width: 28rem;
+    margin-left: auto;
+    margin-right: auto;
+    animation: fadeIn 1.2s ease-out;
+}
+
+.HomeButton {
+    background-color: #3b82f6;
+    color: white;
+    font-weight: 600;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1.4s ease-out;
+}
+
+.HomeButton:hover {
+    background-color: #2563eb;
+    transform: scale(1.05);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.HomeButton:active {
+    transform: scale(0.95);
+}
+
+.BackgroundDecoration {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.FloatingCircle {
+    position: absolute;
+    border-radius: 50%;
+}
+
+.Circle1 {
+    top: 25%;
+    left: 25%;
+    width: 1rem;
+    height: 1rem;
+    background-color: #bfdbfe;
+    animation: float 3s ease-in-out infinite;
+}
+
+.Circle2 {
+    top: 75%;
+    right: 25%;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: #93c5fd;
+    animation: float 4s ease-in-out infinite 0.5s;
+}
+
+.Circle3 {
+    bottom: 25%;
+    left: 50%;
+    width: 2rem;
+    height: 2rem;
+    background-color: #60a5fa;
+    animation: float 5s ease-in-out infinite 1s;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+    .ErrorCode {
+        font-size: 3rem;
+    }
+
+    .ErrorTitle {
+        font-size: 1.25rem;
+    }
+
+    .ErrorDescription {
+        font-size: 0.875rem;
+    }
+
+    .PhoneIcon {
+        font-size: 4rem;
+    }
+}
