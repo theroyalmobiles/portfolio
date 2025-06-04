@@ -1,7 +1,7 @@
 {
   "name": "backend",
   "version": "1.0.2",
-  "description": "the royal mobiles server",
+  "description": "the royal mobiles api",
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js",

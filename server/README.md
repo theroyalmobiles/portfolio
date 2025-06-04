@@ -21,8 +21,8 @@ This is the backend part of the full-stack mobile shop website, "The Royal Mobil
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/GiridharanS1729/theroyalmobiles.git
-   cd theroyalmobiles
+   git clone https://github.com/theroyalmobiles/portfolio.git
+   cd portfolio
    ```
 
 2. **Install dependencies**:

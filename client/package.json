@@ -52,7 +52,7 @@
     "server": {
       "proxy": {
         "/api": {
-          "target": "https://theroyalmobileserver.vercel.app",
+          "target": "https://theroyalmobileapi.vercel.app",
           "changeOrigin": true,
           "secure": false
         }

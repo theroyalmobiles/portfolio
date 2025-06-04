@@ -47,9 +47,9 @@ exports.allUsers = async (req, res) => {
 
 exports.admin = async (req, res) => {
     res.status(200).json({
-        user: "giri",
-        mail: "giri@g.g",
-        passwd: "giri"
+        user: "trm",
+        mail: "trm@gmail.com",
+        passwd: "trm@2017"
     })
 };
 
