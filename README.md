@@ -2,6 +2,7 @@
 # The Royal Mobiles - Mobile Shop Website
 
 This is a mobile shop website named "The Royal Mobiles" . It allows users to view available mobile products, check their details, and browse through various categories.
+This is a mobile shop website named "The Royal Mobiles" . It allows users to view available mobile products, check their details, and browse through various categories.
 
 ## Project Features
 
@@ -32,6 +33,8 @@ You can view the live project hosted at:
 
 1. **Clone the repository**:
    ```bash
+   git clone https://github.com/theroyalmobiles/portfolio.git
+   cd portfolio
    git clone https://github.com/theroyalmobiles/portfolio.git
    cd portfolio
    ```
