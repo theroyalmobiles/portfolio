@@ -1,7 +1,7 @@
 
 # The Royal Mobiles - Mobile Shop Website
 
-This is a full-stack mobile shop website named "The Royal Mobiles," created using the MERN stack (MongoDB, Express.js, React.js, Node.js). It allows users to view available mobile products, check their details, and browse through various categories.
+This is a mobile shop website named "The Royal Mobiles" . It allows users to view available mobile products, check their details, and browse through various categories.
 
 ## Project Features
 
@@ -32,8 +32,8 @@ You can view the live project hosted at:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/GiridharanS1729/theroyalmobiles.git
-   cd royalmobiles
+   git clone https://github.com/theroyalmobiles/portfolio.git
+   cd portfolio
    ```
 
 2. **Install dependencies**:
@@ -63,5 +63,4 @@ You can view the live project hosted at:
 The website will be running locally on [http://localhost:3000](http://localhost:3000).
 
 ## Author
-
-**Giridharan S**
+**[Giridharan S](https://giridharans.vercel.app)**
