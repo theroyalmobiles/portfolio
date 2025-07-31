@@ -8,8 +8,8 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY); // Use env variable
 
 router.get('/', async (req, res) => {
     const amount = req.query.amount
-    const upiID = req.query.upiID || 'giridharans1729-1@okaxis'
-    const name = req.query.name || 'Giridharan S'
+    const upiID = req.query.upiID || 'dpmjagan11-1@okaxis'
+    const name = req.query.name || 'jagan S'
 
     if (!amount || isNaN(amount) || parseFloat(amount) <= 0) {
         return res.status(400).send('Invalid amount')
