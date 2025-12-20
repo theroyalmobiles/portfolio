@@ -64,6 +64,3 @@ You can view the live project hosted at:
    ```
 
 The website will be running locally on [http://localhost:3000](http://localhost:3000).
-
-## Author
-**[Giridharan S](https://giridharans.vercel.app)**
